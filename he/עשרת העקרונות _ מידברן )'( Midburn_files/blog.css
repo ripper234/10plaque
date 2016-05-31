@@ -1,0 +1,31 @@
+body.admin-bar.blog-page{padding-top:28px}
+
+/*.blog-page{background:#08A6CE;padding-top:0;margin:0}
+.blog-page  .excerpt,.blog-page  .excerpt *,.blog-page .content,.blog-page .content *{font-size:16px;line-height:1.5em}
+.blog-page  .excerpt{font-weight:bold;padding-bottom:14px;color:#393738}*/
+#main{margin-right:300px;background:#FFF;display:block}
+.wrap{max-width:640px;margin:0 auto;padding:30px 20px}
+
+/*#logo{margin-bottom:100px;position:absolute;height:120px;right:0;top:50px;width:300px;text-align:center}*/
+
+/*.widget{padding-bottom:40px;margin-bottom:40px;position:relative}*/
+
+
+/* Article */
+.article{margin:0 0 83px 0}
+.article:last-child{margin-bottom:50px}
+.article .meta{padding:2px 0 18px 0;}
+.article .featured{margin:0 0 20px 0}
+.article .featured img{max-height: 230px;}
+
+/* Page */
+.page h1.entry-title{margin:0 0 50px;}
+.blog-page h1,.blog-page h1 a{line-height:1.2em}
+
+/* Responsive */
+@media (max-width: 748px) {
+	body{padding:0}
+	/*#logo{left:0;right:auto;top:0;width:100%;background:#08A6CE;padding-top:50px;height:70px;overflow:hidden}*/
+	#footer{}
+	#footer,#footer .center{text-align:center}
+}
